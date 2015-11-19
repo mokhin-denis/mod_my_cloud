@@ -3,11 +3,11 @@
 *
 * MyCloud generates a Cloud or a List of the meta keywords of your content
 *
-* Copyright (C) 2008-2013 my-j.ru. All rights reserved. 
+* Copyright (C) 2008-2015 Denis Mokhin. All rights reserved. 
 *
 * Author is:
-* Denis E Mokhin < denis[at]my-j.ru >
-* http://my-j.ru
+* Denis Mokhin < denis@mokh.in >
+* http://mokh.in
 *
 * @license GNU GPL, see http://www.gnu.org/licenses/gpl-2.0.html
 * 
