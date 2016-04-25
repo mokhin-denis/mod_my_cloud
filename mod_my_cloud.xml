@@ -2,12 +2,12 @@
 <extension type="module" version="2.5" client="site" method="upgrade">
 	<name>mod_my_cloud</name>
 	<author>Denis Mokhin</author>
-	<authorUrl>http://mokh.in</authorUrl>
+	<authorUrl>http://mokhin-tech.ru</authorUrl>
 	<creationDate>August 2008</creationDate>
-	<copyright>Copyright (C) 2008-2015 Denis Mokhin - All rights reserved.</copyright>
+	<copyright>Copyright (C) 2008-2016 Denis Mokhin - All rights reserved.</copyright>
 	<license>GNU GPL, see http://www.gnu.org/licenses/gpl-2.0.html</license>
-	<authorEmail>denis@mokh.in</authorEmail>
-	<version>0.10</version>
+	<authorEmail>denis@mokhin-tech.ru</authorEmail>
+	<version>0.11</version>
 	<description>MOD_MY_CLOUD_XML_DESCRIPTION</description>
 	
 	<files>
@@ -150,6 +150,6 @@
 		</fields>
 	</config>
 	<updateservers>
-		<server type="extension" name="MyCloud Updates" priority="1">http://update.mokh.in/mycloud.xml</server> 
+		<server type="extension" name="MyCloud Updates" priority="1">http://update.mokhin-tech.ru/mycloud.xml</server> 
 	</updateservers>	
 </extension>

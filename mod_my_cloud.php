@@ -6,8 +6,8 @@
 * Copyright (C) 2008-2015 Denis Mokhin. All rights reserved. 
 *
 * Author is:
-* Denis Mokhin < denis@mokh.in >
-* http://mokh.in
+* Denis Mokhin < denis@mokhin-tech.ru >
+* http://mokhin-tech.ru
 *
 * @license GNU GPL, see http://www.gnu.org/licenses/gpl-2.0.html
 * 
