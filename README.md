@@ -2,11 +2,11 @@
 MyCloud generates a Cloud or a List of meta keywords of your Joomla content. Easy to use and easy to configure.
 
 ## Supported languages
-![en](http://mokh.in/media/mod_languages/images/en.gif) English (en-GB) by Denis Mokhin
+![en](http://mokhin-tech.ru/media/mod_languages/images/en.gif) English (en-GB) by Denis Mokhin
 
-![ru](http://mokh.in/media/mod_languages/images/ru.gif) Russian (ru-RU) by Denis Mokhin
+![ru](http://mokhin-tech.ru/media/mod_languages/images/ru.gif) Russian (ru-RU) by Denis Mokhin
 
-![tr](http://mokh.in/media/mod_languages/images/de.gif) Turkish (de-DE) by Dirk Ohst
+![tr](http://mokhin-tech.ru/media/mod_languages/images/de.gif) Turkish (de-DE) by Dirk Ohst
 
 You can improve current translation or add new languages. Please visit [transifex.com](https://www.transifex.com/mokhin/mycloud/).
 
