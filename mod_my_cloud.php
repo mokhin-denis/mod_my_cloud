@@ -3,7 +3,7 @@
 *
 * MyCloud generates a Cloud or a List of the meta keywords of your content
 *
-* Copyright (C) 2008-2015 Denis Mokhin. All rights reserved. 
+* Copyright (C) 2008-2016 Denis Mokhin. All rights reserved. 
 *
 * Author is:
 * Denis Mokhin < denis@mokhin-tech.ru >
@@ -27,7 +27,7 @@
 defined('_JEXEC') or die;
 
 // Include the syndicate functions only once
-require_once dirname(__FILE__).'/helper.php';
+require_once dirname(__FILE__).DIRECTORY_SEPARATOR.'helper.php';
 
 $limit = intval( $params->get( 'maxcount', 50 ) );
 $ordering = intval($params->get( 'ordering', 1 ) );
