@@ -66,7 +66,7 @@ $lang_to_sep 	= $params->get( 'lang_to_sep','*' );
 //Other
 $moduleclass_sfx=$params->get('moduleclass_sfx');
 
-$menus = &JSite::getMenu();
+$menus = JFactory::getApplication()->getMenu();
 $menu  = $menus->getActive();
 $itemid = $menu->id;
 
