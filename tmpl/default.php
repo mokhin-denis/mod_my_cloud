@@ -26,6 +26,8 @@
 	// no direct access
 	defined('_JEXEC') or die('Restricted access');
 
+    if($itemid!='') $itemid='&Itemid='.$itemid;
+
 	if($separator=='')	$separator='&nbsp;';
 	else
 						$separator=" ".$separator." ";
@@ -79,11 +81,11 @@
 				}
 				if($format_type==1) echo "<li>";			
 				if($com2use==0)
-					echo '<a '.(($add_nofollow==0)?'':'rel="nofollow"').' href="'.JRoute::_('index.php?option=com_search&searchword='.$k.'&searchphrase=exact&ordering=newest&Itemid='.$itemid).'" style="font-size: '.$size.'%;'.$opacity_s.'" title="'.JText::_('tag').": ".$k.'">'.$k.$left_part.$v_s.$right_part."</a>\n";
+					echo '<a '.(($add_nofollow==0)?'':'rel="nofollow"').' href="'.JRoute::_('index.php?option=com_search&searchword='.$k.'&searchphrase=exact&ordering=newest'.$itemid).'" style="font-size: '.$size.'%;'.$opacity_s.'" title="'.JText::_('tag').": ".$k.'">'.$k.$left_part.$v_s.$right_part."</a>\n";
 				else
-					echo '<a '.(($add_nofollow==0)?'':'rel="nofollow"').' href="'.JRoute::_('index.php?option=com_finder&q='         .$k.'&Itemid='.$itemid)                                   .'" style="font-size: '.$size.'%;'.$opacity_s.'" title="'.JText::_('tag').": ".$k.'">'.$k.$left_part.$v_s.$right_part."</a>\n";
-
-				if($format_type==0) echo $separator;
+					echo '<a '.(($add_nofollow==0)?'':'rel="nofollow"').' href="'.JRoute::_('index.php?option=com_finder&q='.$k.$itemid).'" style="font-size: '.$size.'%;'.$opacity_s.'" title="'.JText::_('tag').": ".$k.'">'.$k.$left_part.$v_s.$right_part."</a>\n";
+				
+                if($format_type==0) echo $separator;
 				if($format_type==1) echo "</li>"; 
 			}
 		}

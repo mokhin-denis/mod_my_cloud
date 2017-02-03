@@ -66,6 +66,10 @@ $lang_to_sep 	= $params->get( 'lang_to_sep','*' );
 //Other
 $moduleclass_sfx=$params->get('moduleclass_sfx');
 
+$menus = &JSite::getMenu();
+$menu  = $menus->getActive();
+$itemid = $menu->id;
+
 //get all metakeys from DB
 $all_metakeys = modMyCloudHelper::getMetaKeys($limit,$category_inc,$category_excl,$lang_to_sep,$sep_by_lang);
 
