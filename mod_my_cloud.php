@@ -3,7 +3,7 @@
 *
 * MyCloud generates a Cloud or a List of the meta keywords of your content
 *
-* Copyright (C) 2008-2016 Denis Mokhin. All rights reserved. 
+* Copyright (C) 2008-2017 Denis Mokhin. All rights reserved. 
 *
 * Author is:
 * Denis Mokhin < denis@mokhin-tech.ru >
