@@ -4,7 +4,7 @@
 	<author>Denis Mokhin</author>
 	<authorUrl>http://mokhin-tech.ru</authorUrl>
 	<creationDate>August 2008</creationDate>
-	<copyright>Copyright (C) 2008-2017 Denis Mokhin - All rights reserved.</copyright>
+	<copyright>Copyright (C) 2008-2018 Denis Mokhin - All rights reserved.</copyright>
 	<license>GNU GPL, see http://www.gnu.org/licenses/gpl-2.0.html</license>
 	<authorEmail>denis@mokhin-tech.ru</authorEmail>
 	<version>0.15</version>
@@ -15,7 +15,7 @@
 		<filename>index.html</filename>
 		<filename>helper.php</filename>
 		<filename>README.md</filename>
-		<folder>tmpl</folder>        
+		<folder>tmpl</folder>
 	</files>
 	<languages folder="language">
 		<language tag="ru-RU">ru-RU/ru-RU.mod_my_cloud.ini</language>
